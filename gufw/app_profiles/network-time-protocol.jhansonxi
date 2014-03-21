@@ -1,0 +1,7 @@
+[NTP]
+title=NTP
+description=Network Time Protocol
+ports=631
+categories=Network;Time;
+reference=[http://en.wikipedia.org/wiki/Network_Time_Protocol Wikipedia: Network Time Protocol]
+

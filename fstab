@@ -1,0 +1,8 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+UUID=03aef685-a8c4-4278-ba37-5f89777e9bf1 swap  swap defaults 0 0
+UUID=512c3873-9a04-448f-8c41-aa6152a16d5b /home ext3 defaults 0 1
+UUID=cc405541-b35e-4d1c-9c80-a70f03bb4b6b /boot ext2 defaults 0 1
+UUID=ea3a2bd3-f36d-4bcd-935c-15024a5e0ca0 / ext3 defaults 0 1

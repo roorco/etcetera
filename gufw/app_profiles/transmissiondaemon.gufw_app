@@ -1,0 +1,6 @@
+[transmissiondaemon]
+title=Transmission Daemon
+description=A web front-end for Transmission
+ports=9091
+warning=Remember to open the ports on the router
+categories=Network;P2P;
