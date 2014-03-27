@@ -1,0 +1,15 @@
+[connection]
+id=WiFi-Astreo
+uuid=5e87d858-7b71-4e63-b816-3eecbfcb1fe8
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=WiFi-Astreo
+mode=infrastructure
+mac-address=00:21:5C:14:80:51
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto

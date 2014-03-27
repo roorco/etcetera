@@ -1,0 +1,15 @@
+[connection]
+id=WiFi-Politecnico_Bari
+uuid=9a525f51-607d-4b9b-af38-331729bae2be
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=WiFi-Politecnico_Bari
+mode=infrastructure
+mac-address=00:21:5C:14:80:51
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto
