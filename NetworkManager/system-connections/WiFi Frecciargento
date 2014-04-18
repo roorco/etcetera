@@ -1,0 +1,15 @@
+[connection]
+id=WiFi Frecciargento
+uuid=0aa014f2-38d5-427b-9ca4-3c956e5877da
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=WiFi Frecciargento
+mode=infrastructure
+mac-address=00:21:5C:14:80:51
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto

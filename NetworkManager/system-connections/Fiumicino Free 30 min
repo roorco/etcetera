@@ -1,0 +1,15 @@
+[connection]
+id=Fiumicino Free 30 min
+uuid=00c096c5-a460-43f9-8144-e7c08719d201
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=Fiumicino Free 30 min
+mode=infrastructure
+mac-address=00:21:5C:14:80:51
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto
