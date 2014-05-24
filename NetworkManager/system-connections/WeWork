@@ -1,0 +1,15 @@
+[connection]
+id=WeWork
+uuid=a44c2b1e-4b8d-48c5-916e-1a91d86c0de3
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=WeWork
+mode=infrastructure
+mac-address=00:21:5C:14:80:51
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto

@@ -1,0 +1,12 @@
+Description='Automatically generated profile by wifi-menu'
+Interface=wlp2s0
+Connection=wireless
+Security=wpa
+ESSID=7B3F0C
+IP=dhcp
+
+ForceConnect=yes
+DHCPClient='dhclient'
+
+Key=83967726
+
