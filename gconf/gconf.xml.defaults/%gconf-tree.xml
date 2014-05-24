@@ -80,17 +80,17 @@
 		<dir name="gstreamer">
 			<dir name="0.10">
 				<dir name="default">
-					<entry name="visualization" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/visualization"/>
-					<entry name="videosrc" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/videosrc"/>
-					<entry name="audiosrc_description" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/audiosrc_description"/>
-					<entry name="audiosrc" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/audiosrc"/>
-					<entry name="videosink" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/videosink"/>
-					<entry name="chataudiosink_description" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/chataudiosink_description"/>
-					<entry name="chataudiosink" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/chataudiosink"/>
-					<entry name="musicaudiosink_description" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/musicaudiosink_description"/>
-					<entry name="musicaudiosink" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/musicaudiosink"/>
-					<entry name="audiosink_description" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/audiosink_description"/>
-					<entry name="audiosink" mtime="1397811217" schema="/schemas/system/gstreamer/0.10/default/audiosink"/>
+					<entry name="visualization" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/visualization"/>
+					<entry name="videosrc" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/videosrc"/>
+					<entry name="audiosrc_description" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/audiosrc_description"/>
+					<entry name="audiosrc" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/audiosrc"/>
+					<entry name="videosink" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/videosink"/>
+					<entry name="chataudiosink_description" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/chataudiosink_description"/>
+					<entry name="chataudiosink" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/chataudiosink"/>
+					<entry name="musicaudiosink_description" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/musicaudiosink_description"/>
+					<entry name="musicaudiosink" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/musicaudiosink"/>
+					<entry name="audiosink_description" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/audiosink_description"/>
+					<entry name="audiosink" mtime="1400899501" schema="/schemas/system/gstreamer/0.10/default/audiosink"/>
 				</dir>
 			</dir>
 		</dir>
@@ -550,7 +550,7 @@
 			<dir name="gstreamer">
 				<dir name="0.10">
 					<dir name="default">
-						<entry name="visualization" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="visualization" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer visualization plugin">
 								<default type="string">
 									<stringvalue>goom</stringvalue>
@@ -558,7 +558,7 @@
 								<longdesc>GStreamer can put visualization plugins in a pipeline to transform audio stream in video frames. Default is goom but more visualization plugins will be ported soon. The visualization plugin can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="videosrc" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="videosrc" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer video source">
 								<default type="string">
 									<stringvalue>v4l2src</stringvalue>
@@ -566,7 +566,7 @@
 								<longdesc>GStreamer can record video from any number of input elements.  Some possible choices are v4lsrc and videotestsrc. The video source can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="audiosrc_description" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="audiosrc_description" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="description for default GStreamer audiosrc">
 								<default type="string">
 									<stringvalue>Default</stringvalue>
@@ -574,7 +574,7 @@
 								<longdesc>Describes the selected input element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="audiosrc" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="audiosrc" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer audio source">
 								<default type="string">
 									<stringvalue>alsasrc</stringvalue>
@@ -582,7 +582,7 @@
 								<longdesc>GStreamer can record audio using any number of input elements.  Some possible choices are osssrc, esdsrc and alsasrc.  The audio source can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="videosink" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="videosink" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer videosink">
 								<default type="string">
 									<stringvalue>autovideosink</stringvalue>
@@ -590,7 +590,7 @@
 								<longdesc>GStreamer can play video using any number of output elements.  Some possible choices are xvimagesink, ximagesink, sdlvideosink and aasink.  The videosink can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="chataudiosink_description" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="chataudiosink_description" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="description for GStreamer audiosink for Audio/Video Conferencing">
 								<default type="string">
 									<stringvalue>Default</stringvalue>
@@ -598,7 +598,7 @@
 								<longdesc>Describes the selected output element for Audio/Video Conferencing.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="chataudiosink" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="chataudiosink" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="GStreamer audiosink for Audio/Video Conferencing">
 								<default type="string">
 									<stringvalue>autoaudiosink</stringvalue>
@@ -606,7 +606,7 @@
 								<longdesc>GStreamer can play audio using any number of output elements.  Some possible choices are osssink, esdsink and alsasink.  The audiosink can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="musicaudiosink_description" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="musicaudiosink_description" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="description for GStreamer audiosink for Music and Movies">
 								<default type="string">
 									<stringvalue>Default</stringvalue>
@@ -614,7 +614,7 @@
 								<longdesc>Describes the selected output element for Music and Movies.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="musicaudiosink" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="musicaudiosink" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="GStreamer audiosink for Music and Movies">
 								<default type="string">
 									<stringvalue>autoaudiosink</stringvalue>
@@ -622,7 +622,7 @@
 								<longdesc>GStreamer can play audio using any number of output elements.  Some possible choices are osssink, esdsink and alsasink.  The audiosink can be a partial pipeline instead of just one element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="audiosink_description" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="audiosink_description" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="description for default GStreamer audiosink">
 								<default type="string">
 									<stringvalue>Default</stringvalue>
@@ -630,7 +630,7 @@
 								<longdesc>Describes the selected output element.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="audiosink" mtime="1397811217" type="schema" stype="string" owner="gstreamer">
+						<entry name="audiosink" mtime="1400899501" type="schema" stype="string" owner="gstreamer">
 							<local_schema locale="C" short_desc="default GStreamer audiosink">
 								<default type="string">
 									<stringvalue>autoaudiosink</stringvalue>
@@ -1028,32 +1028,32 @@
 					</dir>
 				</dir>
 				<dir name="typing_break">
-					<entry name="enabled" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Whether or not keyboard locking is enabled">
+					<entry name="enabled" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Indica se il blocco della tastiera è attivato">
 							<default type="bool" value="false"/>
 							<longdesc>
 	  Whether or not keyboard locking is enabled.
          </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="allow_postpone" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Allow postponing of breaks">
+					<entry name="allow_postpone" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Consenti posposizione delle pause">
 							<default type="bool" value="false"/>
 							<longdesc>
           Whether or not the typing break screen can be postponed.
          </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="break_time" mtime="1385219172" type="schema" stype="int" owner="gnome">
-						<local_schema locale="C" short_desc="Break time">
+					<entry name="break_time" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Durata pausa">
 							<default type="int" value="3"/>
 							<longdesc>
           Number of minutes that the typing break should last.
          </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="type_time" mtime="1385219172" type="schema" stype="int" owner="gnome">
-						<local_schema locale="C" short_desc="Type time">
+					<entry name="type_time" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Durata digitazione">
 							<default type="int" value="60"/>
 							<longdesc>
 	  Number of minutes of typing time before break mode starts.
@@ -1062,10 +1062,10 @@
 					</entry>
 				</dir>
 				<dir name="thumbnailers">
-					<entry name="disable_all" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Disable all external thumbnailers">
+					<entry name="disable_all" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Disabilita tutti i creatori di miniature esterni">
 							<default type="bool" value="false"/>
-							<longdesc>Set to true to disable all external thumbnailer programs, independent on whether they are independently disabled/enabled.</longdesc>
+							<longdesc>Impostare a vero per disabilitare tutti i programmi esterni per creare provini e miniature, indipendentemente dalle impostazioni di ciascuno di essi.</longdesc>
 						</local_schema>
 					</entry>
 					<dir name="application@x-cbt">
@@ -1133,82 +1133,100 @@
 					</dir>
 				</dir>
 				<dir name="thumbnail_cache">
-					<entry name="maximum_size" mtime="1385219172" type="schema" stype="int" owner="gnome">
-						<local_schema locale="C" short_desc="">
+					<entry name="maximum_size" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 							<default type="int" value="512"/>
-							<longdesc>Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable cleaning.</longdesc>
+							<longdesc>Dimensione massima della cache delle miniature, in megabyte. Impostare a -1 per disabilitare la pulizia.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="maximum_age" mtime="1385219172" type="schema" stype="int" owner="gnome">
-						<local_schema locale="C" short_desc="">
+					<entry name="maximum_age" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 							<default type="int" value="180"/>
-							<longdesc>Maximum age for thumbnails in the cache, in days. Set to -1 to disable cleaning.</longdesc>
+							<longdesc>Età massima per le miniature nella cache, in giorni. Impostare a -1 per disabilitare la pulizia.</longdesc>
 						</local_schema>
 					</entry>
 				</dir>
 				<dir name="sound">
-					<entry name="input_feedback_sounds" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Input feedback sounds">
+					<entry name="input_feedback_sounds" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Suoni di riscontro dell&apos;input">
 							<default type="bool" value="false"/>
-							<longdesc>Whether to play sounds on input events.</longdesc>
+							<longdesc>Indica se usare suoni quando avvengono eventi di input.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="theme_name" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Sound theme name">
+					<entry name="theme_name" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Nome del tema sonoro">
 							<default type="string">
 								<stringvalue>freedesktop</stringvalue>
 							</default>
-							<longdesc>The XDG sound theme to use for event sounds.</longdesc>
+							<longdesc>Il tema sonoro XDG da usare per i suoni degli eventi.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="event_sounds" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Sounds for events">
+					<entry name="event_sounds" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Suoni per eventi">
 							<default type="bool" value="false"/>
-							<longdesc>Whether to play sounds on user events.</longdesc>
+							<longdesc>Indica se usare suoni quando avvengono eventi utente.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="enable_esd" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Enable ESD">
+					<entry name="enable_esd" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Abilita ESD">
 							<default type="bool" value="false"/>
-							<longdesc>Enable sound server startup.</longdesc>
+							<longdesc>Abilita il server sonoro all&apos;avvio.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="default_mixer_tracks" mtime="1385219172" type="schema" stype="list" owner="gnome" list_type="string">
-						<local_schema locale="C" short_desc="Default mixer tracks">
+					<entry name="default_mixer_tracks" mtime="1400899595" type="schema" stype="list" owner="gnome" gettext_domain="libgnome-2.0" list_type="string">
+						<local_schema locale="C" short_desc="Tracce mixer predefinite">
 							<default type="list" ltype="string">
 							</default>
-							<longdesc>The default mixer tracks used by the multimedia key bindings.</longdesc>
+							<longdesc>Le tracce del mixer predefinito usato dalle associazioni dei tasti multimediali.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="default_mixer_device" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Default mixer device">
+					<entry name="default_mixer_device" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Device mixer predefinito">
 							<default type="string">
 								<stringvalue></stringvalue>
 							</default>
-							<longdesc>The default mixer device used by the multimedia key bindings.</longdesc>
+							<longdesc>Il device del mixer predefinito usato dalle associazioni dei tasti multimediali.</longdesc>
 						</local_schema>
 					</entry>
 				</dir>
 				<dir name="peripherals">
 					<dir name="mouse">
-						<entry name="cursor_size" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="Cursor size">
+						<entry name="cursor_size" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Dimensione del cursore">
 								<default type="int" value="18"/>
 								<longdesc>
 	  Size of the cursor referenced by cursor_theme.
 	</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="cursor_theme" mtime="1385219172" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="Cursor theme">
+						<entry name="cursor_theme" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Tema del cursore">
 								<longdesc>
 	  Cursor theme name. Used only by Xservers that support Xcursor,
 	  such as XFree86 4.3 and later.
 	</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="cursor_font" mtime="1385219172" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="Cursor font">
+						<entry name="cursor_font" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Carattere del cursore">
 								<longdesc>
 	  Font name of the cursor. If unset, the default font is
 	  used. This value is only propagated to the X server start of
@@ -1217,129 +1235,271 @@
 	</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="locate_pointer" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Locate Pointer">
+						<entry name="locate_pointer" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Localizza puntatore">
 								<default type="bool" value="false"/>
 								<longdesc>Highlights the current location of the pointer when the
         Control key is pressed and released.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="double_click" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="Double Click Time">
+						<entry name="double_click" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Tempo del doppio clic">
 								<default type="int" value="400"/>
-								<longdesc>Length of a double click.</longdesc>
+								<longdesc>Durata di un doppio clic.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="drag_threshold" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="Drag Threshold">
+						<entry name="drag_threshold" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Soglia trascinamento">
 								<default type="int" value="8"/>
-								<longdesc>Distance before a drag is started.</longdesc>
+								<longdesc>Distanza prima di avviare un trascinamento.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="motion_threshold" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="Motion Threshold">
+						<entry name="motion_threshold" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Soglia movimento">
 								<default type="int" value="-1"/>
 								<longdesc>Distance in pixels the pointer must move before
         accelerated mouse motion is activated.  A value of -1 is the
         system default.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="motion_acceleration" mtime="1385219172" type="schema" stype="float" owner="gnome">
-							<local_schema locale="C" short_desc="Single Click">
+						<entry name="motion_acceleration" mtime="1400899595" type="schema" stype="float" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Singolo clic">
 								<default type="float" value="-1"/>
 								<longdesc>Acceleration multiplier for mouse motion.  A value of -1
         is the system default.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="single_click" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Single Click">
+						<entry name="single_click" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Singolo clic">
 								<default type="bool" value="true"/>
-								<longdesc>Single click to open icons.</longdesc>
+								<longdesc>Singolo clic per aprire le icone.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="left_handed" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Mouse button orientation">
+						<entry name="left_handed" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Orientazione tasti del mouse">
 								<default type="bool" value="false"/>
-								<longdesc>Swap left and right mouse buttons for left-handed mice.</longdesc>
+								<longdesc>Inverte i tasti destro e sinistro del mouse per mancini.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="keyboard">
-						<entry name="remember_numlock_state" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Remember NumLock state">
+						<entry name="remember_numlock_state" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Ricorda lo stato di BlocNum">
 								<default type="bool" value="true"/>
-								<longdesc>When set to true, GNOME will remember the state of the NumLock LED between sessions.</longdesc>
+								<longdesc>Quando impostato a &quot;true&quot;, GNOME ricorderà lo stato del LED BlocNum da una sessione all&apos;altra.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bell_custom_file" mtime="1385219172" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="Keyboard Bell Custom Filename">
-								<longdesc>File name of the bell sound to be played.</longdesc>
+						<entry name="bell_custom_file" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Nome del file personalizzato della campanella da tastiera">
+								<longdesc>Nome del file del suono della campanella da riprodurre.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bell_duration" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="bell_duration" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="int" value="100"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bell_pitch" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="bell_pitch" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="int" value="400"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bell_mode" mtime="1385219172" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="bell_mode" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="string">
 									<stringvalue>on</stringvalue>
 								</default>
-								<longdesc>possible values are &quot;on&quot;, &quot;off&quot;, and &quot;custom&quot;.</longdesc>
+								<longdesc>Valori ammessi sono &quot;on&quot; &quot;off&quot; e &quot;custom&quot;.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="click_volume" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="click_volume" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="int" value="0"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="delay" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="delay" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="int" value="500"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="rate" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="rate" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="int" value="30"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="click" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="click" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="true"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="repeat" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="repeat" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="true"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 				</dir>
 				<dir name="lockdown">
-					<entry name="disable_application_handlers" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Disable URL and MIME type handlers">
+					<entry name="disable_application_handlers" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Disabilitare i gestori degli URL e dei tipi MIME">
 							<default type="bool" value="false"/>
 							<longdesc>
          Prevent running any URL or MIME type handler applications.
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_lock_screen" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Disable lock screen">
+					<entry name="disable_lock_screen" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Disabilita blocco schermo">
 							<default type="bool" value="false"/>
 							<longdesc>
          Prevent the user to lock his screen.
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_user_switching" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Disable user switching">
+					<entry name="disable_user_switching" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Disabilita cambio utente">
 							<default type="bool" value="false"/>
 							<longdesc>
          Prevent the user from switching to another account while his
@@ -1347,8 +1507,8 @@
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_print_setup" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Disable print setup">
+					<entry name="disable_print_setup" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Disabilita impostazione stampa">
 							<default type="bool" value="false"/>
 							<longdesc>
          Prevent the user from modifying print settings. For example,
@@ -1357,8 +1517,8 @@
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_printing" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Disable printing">
+					<entry name="disable_printing" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Disabilita stampa">
 							<default type="bool" value="false"/>
 							<longdesc>
           Prevent the user from printing. For example, this would
@@ -1366,8 +1526,8 @@
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_save_to_disk" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Disable saving files to disk">
+					<entry name="disable_save_to_disk" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Disabilita salvataggio file su disco">
 							<default type="bool" value="false"/>
 							<longdesc>
           Prevent the user from saving files to disk. For example,
@@ -1376,8 +1536,8 @@
         </longdesc>
 						</local_schema>
 					</entry>
-					<entry name="disable_command_line" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Disable command line">
+					<entry name="disable_command_line" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Disabilita riga di comando">
 							<default type="bool" value="false"/>
 							<longdesc>
           Prevent the user from accessing the terminal or specifying
@@ -1388,30 +1548,30 @@
 					</entry>
 				</dir>
 				<dir name="interface">
-					<entry name="show_unicode_menu" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Show the &apos;Unicode Control Character&apos; menu">
+					<entry name="show_unicode_menu" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Mostra il menù &quot;Caratteri di controllo Unicode&quot;">
 							<default type="bool" value="true"/>
 							<longdesc>Whether the context menus of entries and text views 
         should offer to insert control characters.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="show_input_method_menu" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Show the &apos;Input Methods&apos; menu">
+					<entry name="show_input_method_menu" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Mostra il menù &quot;Metodi di input&quot;">
 							<default type="bool" value="true"/>
 							<longdesc>Whether the context menus of entries and text views 
         should offer to change the input method.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="menubar_accel" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Menubar accelerator">
+					<entry name="menubar_accel" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Acceleratore della barra dei menù">
 							<default type="string">
 								<stringvalue>F10</stringvalue>
 							</default>
-							<longdesc>Keyboard shortcut to open the menu bars.</longdesc>
+							<longdesc>Scorciatoia da tastiera per aprire le barre dei menù.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="file_chooser_backend" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Module for GtkFileChooser">
+					<entry name="file_chooser_backend" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Modulo per GtkFileChooser">
 							<default type="string">
 								<stringvalue>gio</stringvalue>
 							</default>
@@ -1420,20 +1580,20 @@
 	&quot;gtk+&quot;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="status_bar_meter_on_right" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Status Bar on Right">
+					<entry name="status_bar_meter_on_right" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Barra di stato a destra">
 							<default type="bool" value="false"/>
-							<longdesc>Whether to display a status bar meter on the right.</longdesc>
+							<longdesc>Indica se porre a destra l&apos;indicatore sulla barra di stato.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="use_custom_font" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Use Custom Font">
+					<entry name="use_custom_font" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Usa carattere personalizzato">
 							<default type="bool" value="false"/>
-							<longdesc>Whether to use a custom font in gtk+ applications.</longdesc>
+							<longdesc>Indica se usare un tipo di carattere personalizzato nelle applicazioni GTK+.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="monospace_font_name" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Monospace font">
+					<entry name="monospace_font_name" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Carattere monospace">
 							<default type="string">
 								<stringvalue>Monospace 10</stringvalue>
 							</default>
@@ -1441,84 +1601,84 @@
               in locations like terminals.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="document_font_name" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Document font">
+					<entry name="document_font_name" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Tipo di carattere per i documenti">
 							<default type="string">
 								<stringvalue>Sans 10</stringvalue>
 							</default>
-							<longdesc>Name of the default font used for reading documents.</longdesc>
+							<longdesc>Nome del tipo di carattere usato in modo predefinito per leggere i documenti.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk-im-module" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="GTK IM Module">
+					<entry name="gtk-im-module" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Modulo IM GTK+">
 							<default type="string">
 								<stringvalue></stringvalue>
 							</default>
-							<longdesc>Name of the input method module used by GTK+.</longdesc>
+							<longdesc>Nome del modulo del metodo di input usato dalle GTK+.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk-im-status-style" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="GTK IM Status Style">
+					<entry name="gtk-im-status-style" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Stile GTK+ IM Status">
 							<default type="string">
 								<stringvalue>callback</stringvalue>
 							</default>
-							<longdesc>Name of the GTK+ input method Status Style used by gtk+.</longdesc>
+							<longdesc>Nome del metodo di input delle GTK+ Status Style usato.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk-im-preedit-style" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="GTK IM Preedit Style">
+					<entry name="gtk-im-preedit-style" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Stile GTK+ IM Preedit">
 							<default type="string">
 								<stringvalue>callback</stringvalue>
 							</default>
-							<longdesc>Name of the GTK+ input method Preedit Style used by gtk+.</longdesc>
+							<longdesc>Nome del metodo di input delle GTK+ Preedit Style usato.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="font_name" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Default font">
+					<entry name="font_name" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Tipo di carattere predefinito">
 							<default type="string">
 								<stringvalue>Sans 10</stringvalue>
 							</default>
-							<longdesc>Name of the default font used by gtk+.</longdesc>
+							<longdesc>Nome del tipo di carattere usato in modo predefinito dalle GTK+.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk_key_theme" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Gtk+ Theme">
+					<entry name="gtk_key_theme" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Tema GTK+">
 							<default type="string">
 								<stringvalue>Default</stringvalue>
 							</default>
-							<longdesc>Basename of the default theme used by gtk+.</longdesc>
+							<longdesc>Nome di base del tema predefinito usato dalle GTK+.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="gtk_theme" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Gtk+ Theme">
+					<entry name="gtk_theme" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Tema GTK+">
 							<default type="string">
 								<stringvalue>Clearlooks</stringvalue>
 							</default>
-							<longdesc>Basename of the default theme used by gtk+.</longdesc>
+							<longdesc>Nome di base del tema predefinito usato dalle GTK+.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="icon_theme" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Icon Theme">
+					<entry name="icon_theme" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Tema delle icone">
 							<default type="string">
 								<stringvalue>gnome</stringvalue>
 							</default>
-							<longdesc>Icon theme to use for the panel, nautilus etc.</longdesc>
+							<longdesc>Tema delle icone usato per il pannello, nautilus, ecc.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="cursor_blink_time" mtime="1385219172" type="schema" stype="int" owner="gnome">
-						<local_schema locale="C" short_desc="Cursor Blink Time">
+					<entry name="cursor_blink_time" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Intervallo di lampeggiamento cursore">
 							<default type="int" value="1200"/>
-							<longdesc>Length of the cursor blink cycle, in milliseconds.</longdesc>
+							<longdesc>Durata del ciclo di lampeggiamento del cursore, in millisecondi.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="cursor_blink" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Cursor Blink">
+					<entry name="cursor_blink" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Cursore lampeggiante">
 							<default type="bool" value="true"/>
-							<longdesc>Whether the cursor should blink.</longdesc>
+							<longdesc>Indica se il cursore debba lampeggiare.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="toolbar_icons_size" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Toolbar Icon Size">
+					<entry name="toolbar_icons_size" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Dimensione delle icone della barra strumenti">
 							<default type="string">
 								<stringvalue>large-toolbar</stringvalue>
 							</default>
@@ -1526,32 +1686,32 @@
         &quot;large-toolbar&quot;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="toolbar_detachable" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Toolbar Detachable">
+					<entry name="toolbar_detachable" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Barra degli strumenti staccabile">
 							<default type="bool" value="false"/>
-							<longdesc>Whether the user can detach toolbars and move them around.</longdesc>
+							<longdesc>Indica se l&apos;utente può staccare le barre degli strumenti e spostarle.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="menubar_detachable" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Menubar Detachable">
+					<entry name="menubar_detachable" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Barra dei menù staccabile">
 							<default type="bool" value="false"/>
-							<longdesc>Whether the user can detach menubars and move them around.</longdesc>
+							<longdesc>Indica se l&apos;utente può staccare le barre dei menù e spostarle.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="buttons_have_icons" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Buttons Have Icons">
+					<entry name="buttons_have_icons" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Pulsanti con icone">
 							<default type="bool" value="false"/>
-							<longdesc>Whether buttons may display an icon in addition to the button text.</longdesc>
+							<longdesc>Indica se i pulsanti devono visualizzare un&apos;icona oltre al testo.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="menus_have_icons" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Menus Have Icons">
+					<entry name="menus_have_icons" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Menù con icone">
 							<default type="bool" value="false"/>
-							<longdesc>Whether menus may display an icon next to a menu entry.</longdesc>
+							<longdesc>Indica se debba essere mostrata un&apos;icona accanto alle voci di menù.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="toolbar_style" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Toolbar Style">
+					<entry name="toolbar_style" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Stile della barra strumenti">
 							<default type="string">
 								<stringvalue>both-horiz</stringvalue>
 							</default>
@@ -1559,85 +1719,85 @@
 	&quot;text&quot;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="can_change_accels" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Can Change Accels">
+					<entry name="can_change_accels" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Consenti cambio acceleratori">
 							<default type="bool" value="false"/>
 							<longdesc>Whether the user can dynamically type a new accelerator when 
 	positioned over an active menuitem.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="menus_have_tearoff" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Menus Have Tearoff">
+					<entry name="menus_have_tearoff" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Menù con staccatore">
 							<default type="bool" value="false"/>
-							<longdesc>Whether menus should have a tearoff.</longdesc>
+							<longdesc>Indica se i menù debbano avere uno staccatore.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="enable_animations" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Enable Animations">
+					<entry name="enable_animations" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Abilita animazioni">
 							<default type="bool" value="true"/>
 							<longdesc>Whether animations should be displayed. Note: This is a global
 	key, it changes the behaviour of the window manager, the panel etc.
 	</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="accessibility" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Enable Accessibility">
+					<entry name="accessibility" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Abilita accessibilità">
 							<default type="bool" value="false"/>
-							<longdesc>Whether Applications should have accessibility support.</longdesc>
+							<longdesc>Indica se le applicazioni debbano avere il supporto per l&apos;accessibilità.</longdesc>
 						</local_schema>
 					</entry>
 				</dir>
 				<dir name="file-views">
-					<entry name="icon_theme" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="File Icon Theme">
+					<entry name="icon_theme" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Tema icone dei file">
 							<default type="string">
 								<stringvalue>crux_teal</stringvalue>
 							</default>
-							<longdesc>Theme used for displaying file icons.</longdesc>
+							<longdesc>Tema usato per visualizzare le icone dei file.</longdesc>
 						</local_schema>
 					</entry>
 				</dir>
 				<dir name="background">
-					<entry name="color_shading_type" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Color Shading Type">
+					<entry name="color_shading_type" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Tipo sfumatura colore">
 							<default type="string">
 								<stringvalue>solid</stringvalue>
 							</default>
-							<longdesc>How to shade the background color. Possible values are &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, and &quot;solid&quot;.</longdesc>
+							<longdesc>Indica come sfumare il colore di sfondo. Valori ammessi sono &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; e &quot;solid&quot;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="secondary_color" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Secondary Color">
+					<entry name="secondary_color" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Colore secondario">
 							<default type="string">
 								<stringvalue>#66ba00</stringvalue>
 							</default>
-							<longdesc>Right or Bottom color when drawing gradients, not used for solid color.</longdesc>
+							<longdesc>Colore a destra o in basso quando si disegna un gradiente, non usato per la tinta unita.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="primary_color" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Primary Color">
+					<entry name="primary_color" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Colore primario">
 							<default type="string">
 								<stringvalue>#66ba00</stringvalue>
 							</default>
-							<longdesc>Left or Top color when drawing gradients, or the solid color.</longdesc>
+							<longdesc>Colore in alto o a sinistra quando si utilizza un gradiente, oppure il colore per la tinta unita.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="picture_opacity" mtime="1385219172" type="schema" stype="int" owner="gnome">
-						<local_schema locale="C" short_desc="Picture Opacity">
+					<entry name="picture_opacity" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Opacità immagine">
 							<default type="int" value="100"/>
-							<longdesc>Opacity with which to draw the background picture.</longdesc>
+							<longdesc>Opacità con cui disegnare l&apos;immagine di sfondo.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="picture_filename" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Picture Filename">
+					<entry name="picture_filename" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Nome del file di immagine">
 							<default type="string">
 								<stringvalue>/usr/share/pixmaps/backgrounds/gnome/background-default.jpg</stringvalue>
 							</default>
-							<longdesc>File to use for the background image.</longdesc>
+							<longdesc>File da usare come immagine di sfondo.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="picture_options" mtime="1385219172" type="schema" stype="string" owner="gnome">
-						<local_schema locale="C" short_desc="Picture Options">
+					<entry name="picture_options" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Opzioni immagine">
 							<default type="string">
 								<stringvalue>zoom</stringvalue>
 							</default>
@@ -1646,10 +1806,10 @@
     &quot;stretched&quot;, &quot;zoom&quot;, &quot;spanned&quot;.</longdesc>
 						</local_schema>
 					</entry>
-					<entry name="draw_background" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-						<local_schema locale="C" short_desc="Draw Desktop Background">
+					<entry name="draw_background" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+						<local_schema locale="C" short_desc="Disegna sfondo scrivania">
 							<default type="bool" value="true"/>
-							<longdesc>Have GNOME draw the desktop background.</longdesc>
+							<longdesc>Indica se GNOME debba disegnare lo sfondo della scrivania.</longdesc>
 						</local_schema>
 					</entry>
 				</dir>
@@ -1665,32 +1825,32 @@
 						</entry>
 					</dir>
 					<dir name="window_manager">
-						<entry name="workspace_names" mtime="1385219172" type="schema" stype="list" owner="gnome" list_type="string">
-							<local_schema locale="C" short_desc="Names of the workspaces (deprecated)">
+						<entry name="workspace_names" mtime="1400899595" type="schema" stype="list" owner="gnome" gettext_domain="libgnome-2.0" list_type="string">
+							<local_schema locale="C" short_desc="Nomi delle aree di lavoro (deprecata)">
 								<longdesc>
           A list with names of the first window manager workspaces.
           This key has been deprecated since GNOME 2.12.
         </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="number_of_workspaces" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="The number of workspaces (deprecated)">
+						<entry name="number_of_workspaces" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Il numero delle aree di lavoro (deprecata)">
 								<longdesc>
           The number of workspaces the window manager should use
           This key has been deprecated since GNOME 2.12.
         </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="current" mtime="1385219172" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="User window manager (deprecated)">
+						<entry name="current" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Window manager dell&apos;utente (deprecata)">
 								<longdesc>
           Window manager to try first.
           This key has been deprecated since GNOME 2.12.
         </longdesc>
 							</local_schema>
 						</entry>
-						<entry name="default" mtime="1385219172" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="Fallback window manager (deprecated)">
+						<entry name="default" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Window manager di ripiego (deprecata)">
 								<longdesc>
           Fallback window manager if user window manager can&apos;t be found.
           This key has been deprecated since GNOME 2.12.
@@ -1699,107 +1859,108 @@
 						</entry>
 					</dir>
 					<dir name="terminal">
-						<entry name="exec_arg" mtime="1392507570" type="schema" stype="string" owner="gnome-vfs">
-							<local_schema locale="C" short_desc="Argomento exec per il terminale predefinito">
+						<entry name="exec_arg" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Argomenti Exec">
 								<default type="string">
 									<stringvalue>-x</stringvalue>
 								</default>
-								<longdesc>L&apos;argomento exec da usare per l&apos;applicazione di terminale predefinita.</longdesc>
+								<longdesc>Argument used to execute programs in the terminal defined
+	by the &apos;exec&apos; key.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="exec" mtime="1392507570" type="schema" stype="string" owner="gnome-vfs">
-							<local_schema locale="C" short_desc="Applicazione di terminale predefinita">
+						<entry name="exec" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Applicazione di terminale">
 								<default type="string">
 									<stringvalue>gnome-terminal</stringvalue>
 								</default>
-								<longdesc>Applicazione di terminale predefinita da usare per applicazioni che richiedono un terminale.</longdesc>
+								<longdesc>Programma di terminale da usare quando un&apos;applicazione in avvio ne richiede uno.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="tasks">
-						<entry name="needs_term" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Tasks needs terminal">
+						<entry name="needs_term" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Compiti necessita del terminale">
 								<default type="bool" value="false"/>
-								<longdesc>Whether the default tasks application needs a terminal to run</longdesc>
+								<longdesc>Indica se l&apos;applicazione per i compiti predefinita necessita di un terminale per essere eseguita</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="exec" mtime="1385219172" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="Default tasks">
+						<entry name="exec" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Compiti predefinito">
 								<default type="string">
 									<stringvalue>evolution</stringvalue>
 								</default>
-								<longdesc>Default tasks application</longdesc>
+								<longdesc>Applicazione di compiti predefinita</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="calendar">
-						<entry name="needs_term" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Calendar needs terminal">
+						<entry name="needs_term" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Calendario necessita del terminale">
 								<default type="bool" value="false"/>
-								<longdesc>Whether the default calendar application needs a terminal to run</longdesc>
+								<longdesc>Indica se l&apos;applicazione calendario predefinita necessita di un terminale per essere eseguita</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="exec" mtime="1385219172" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="Default calendar">
+						<entry name="exec" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Calendario predefinito">
 								<default type="string">
 									<stringvalue>evolution</stringvalue>
 								</default>
-								<longdesc>Default calendar application</longdesc>
+								<longdesc>Applicazione di calendario predefinita</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="browser">
-						<entry name="nremote" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Browser understands remote">
+						<entry name="nremote" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Il browser gestisce file remoti">
 								<default type="bool" value="true"/>
-								<longdesc>Whether the default browser understands netscape remote.</longdesc>
+								<longdesc>Indica se il browser predefinito gestisce l&apos;opzione &apos;remote&apos; di Netscape.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="needs_term" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="Browser needs terminal">
+						<entry name="needs_term" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Il browser necessita del terminale">
 								<default type="bool" value="false"/>
-								<longdesc>Whether the default browser needs a terminal to run.</longdesc>
+								<longdesc>Indica se il browser predefinito necessita di un terminale per essere eseguito.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="exec" mtime="1385219172" type="schema" stype="string" owner="gnome">
-							<local_schema locale="C" short_desc="Default browser">
+						<entry name="exec" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Browser predefinito">
 								<default type="string">
 									<stringvalue>mozilla</stringvalue>
 								</default>
-								<longdesc>Default browser for all URLs.</longdesc>
+								<longdesc>Browser predefinito per ogni URL.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="at">
 						<dir name="visual">
-							<entry name="startup" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-								<local_schema locale="C" short_desc="Start preferred Visual assistive technology application">
+							<entry name="startup" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+								<local_schema locale="C" short_desc="Avvio applicazione di tecnologia assistiva per disabilità visive preferita">
 									<default type="bool" value="false"/>
-									<longdesc>GNOME to start preferred Visual assistive technology application during login.</longdesc>
+									<longdesc>GNONE avvierà l&apos;applicazione di tecnologia assistiva per disabilità visive predefinita durante l&apos;accesso.</longdesc>
 								</local_schema>
 							</entry>
-							<entry name="exec" mtime="1385219172" type="schema" stype="string" owner="gnome">
-								<local_schema locale="C" short_desc="Preferred Visual assistive technology application">
+							<entry name="exec" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+								<local_schema locale="C" short_desc="Applicazione di tecnologia assistiva per disabilità visive preferita">
 									<default type="string">
 										<stringvalue>orca</stringvalue>
 									</default>
-									<longdesc>Preferred Visual assistive technology application be used for login, menu, or command line.</longdesc>
+									<longdesc>Applicazione preferita di tecnologia assistiva per disabilità visive preferita da usare per l&apos;accesso, i menù o la riga di comando.</longdesc>
 								</local_schema>
 							</entry>
 						</dir>
 						<dir name="mobility">
-							<entry name="startup" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-								<local_schema locale="C" short_desc="Start preferred Mobility assistive technology application">
+							<entry name="startup" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+								<local_schema locale="C" short_desc="Avvio applicazione di tecnologia assistiva per disabilità motorie preferita">
 									<default type="bool" value="false"/>
-									<longdesc>GNOME to start preferred Mobility assistive technology application during login.</longdesc>
+									<longdesc>GNOME avvierà l&apos;applicazione di tecnologia assistiva per disabilità motorie durante l&apos;accesso.</longdesc>
 								</local_schema>
 							</entry>
-							<entry name="exec" mtime="1385219172" type="schema" stype="string" owner="gnome">
-								<local_schema locale="C" short_desc="Preferred Mobility assistive technology application">
+							<entry name="exec" mtime="1400899595" type="schema" stype="string" owner="gnome" gettext_domain="libgnome-2.0">
+								<local_schema locale="C" short_desc="Applicazione di tecnologia assistiva per disabilità motorie.">
 									<default type="string">
 										<stringvalue>dasher</stringvalue>
 									</default>
-									<longdesc>Preferred Mobility assistive technology application to be used for login, menu, or command line.</longdesc>
+									<longdesc>Applicazione preferita di tecnologia assistiva per disabilità motorie da usare per l&apos;accesso, i menù o la riga di comando.</longdesc>
 								</local_schema>
 							</entry>
 						</dir>
@@ -1807,120 +1968,385 @@
 				</dir>
 				<dir name="accessibility">
 					<dir name="startup">
-						<entry name="exec_ats" mtime="1385219172" type="schema" stype="list" owner="gnome" list_type="string">
-							<local_schema locale="C" short_desc="Startup Assistive Technology Applications">
+						<entry name="exec_ats" mtime="1400899595" type="schema" stype="list" owner="gnome" gettext_domain="libgnome-2.0" list_type="string">
+							<local_schema locale="C" short_desc="Avvio applicazioni tecnologia assistiva">
 								<default type="list" ltype="string">
 								</default>
-								<longdesc>List of assistive technology applications to start when logging into the GNOME desktop.</longdesc>
+								<longdesc>Elenco delle applicazioni di tecnologia assistiva da avviare quando si accede nell&apos;ambiente grafico GNOME.</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
 					<dir name="keyboard">
-						<entry name="togglekeys_enable" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="togglekeys_enable" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="stickykeys_modifier_beep" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="stickykeys_modifier_beep" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
-								<longdesc>Beep when a modifier is pressed.</longdesc>
+								<longdesc>Segnale acustico alla pressione di un modificatore.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="stickykeys_two_key_off" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="stickykeys_two_key_off" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
-								<longdesc>Disable if two keys are pressed at the same time.</longdesc>
+								<longdesc>Disabilita se due tasti sono premuti contemporaneamente.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="stickykeys_enable" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="stickykeys_enable" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_beep_reject" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="slowkeys_beep_reject" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_beep_accept" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="slowkeys_beep_accept" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_beep_press" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="slowkeys_beep_press" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_delay" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="Minimum interval in milliseconds">
+						<entry name="slowkeys_delay" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Intervallo minimo in millisecondi">
 								<default type="int" value="300"/>
-								<longdesc>Do not accept a key as being pressed unless held for @delay milliseconds.</longdesc>
+								<longdesc>Non accetta un tasto se non è stato mantenuto premuto per almeno @delay millisecondi.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="slowkeys_enable" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="slowkeys_enable" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="mousekeys_init_delay" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="Initial delay in milliseconds">
+						<entry name="mousekeys_init_delay" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Ritardo iniziale in millisecondi">
 								<default type="int" value="300"/>
-								<longdesc>How many milliseconds to wait before mouse movement keys start to operate.</longdesc>
+								<longdesc>Quanti millisecondi attendere prima che i tasti per il movimento del mouse inizino a operare.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="mousekeys_accel_time" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="How long to accelerate in milliseconds">
+						<entry name="mousekeys_accel_time" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Durata dell&apos;accelerazione in millisecondi">
 								<default type="int" value="300"/>
-								<longdesc>How many milliseconds it takes to go from 0 to maximum speed.</longdesc>
+								<longdesc>Quanti millisecondi sono necessari per andare da 0 alla velocità massima.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="mousekeys_max_speed" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="Pixels per seconds">
+						<entry name="mousekeys_max_speed" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Pixel al secondo">
 								<default type="int" value="10"/>
-								<longdesc>How many pixels per second to move at the maximum speed.</longdesc>
+								<longdesc>Di quanti pixel al secondo muovere alla massima velocità.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="mousekeys_enable" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="mousekeys_enable" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bouncekeys_beep_reject" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="bouncekeys_beep_reject" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bouncekeys_delay" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="minimum interval in milliseconds">
+						<entry name="bouncekeys_delay" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Intervallo minimo in millisecondi">
 								<default type="int" value="300"/>
-								<longdesc>Ignore multiple presses of the _same_ key within @delay milliseconds.</longdesc>
+								<longdesc>Ignora pressioni multiple dello STESSO tasto se entro @delay millisecondi.</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="bouncekeys_enable" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="bouncekeys_enable" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="timeout" mtime="1385219172" type="schema" stype="int" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="timeout" mtime="1400899595" type="schema" stype="int" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="int" value="200"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="timeout_enable" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="timeout_enable" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="feature_state_change_beep" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="feature_state_change_beep" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
-						<entry name="enable" mtime="1385219172" type="schema" stype="bool" owner="gnome">
-							<local_schema locale="C" short_desc="">
+						<entry name="enable" mtime="1400899595" type="schema" stype="bool" owner="gnome" gettext_domain="libgnome-2.0">
+							<local_schema locale="C" short_desc="Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+">
 								<default type="bool" value="false"/>
+								<longdesc>Project-Id-Version: libgnome 2.30
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2010-03-12 10:53+0100
+PO-Revision-Date: 2010-03-12 09:54+0100
+Last-Translator: Francesco Marletta &lt;francesco.marletta@tiscali.it&gt;
+Language-Team: Italian &lt;tp@lists.linux.it&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</longdesc>
 							</local_schema>
 						</entry>
 					</dir>
@@ -1983,13 +2409,13 @@
 				</dir>
 			</dir>
 			<dir name="typing_break">
-				<entry name="enabled" mtime="1385219172" schema="/schemas/desktop/gnome/typing_break/enabled"/>
-				<entry name="allow_postpone" mtime="1385219172" schema="/schemas/desktop/gnome/typing_break/allow_postpone"/>
-				<entry name="break_time" mtime="1385219172" schema="/schemas/desktop/gnome/typing_break/break_time"/>
-				<entry name="type_time" mtime="1385219172" schema="/schemas/desktop/gnome/typing_break/type_time"/>
+				<entry name="enabled" mtime="1400899595" schema="/schemas/desktop/gnome/typing_break/enabled"/>
+				<entry name="allow_postpone" mtime="1400899595" schema="/schemas/desktop/gnome/typing_break/allow_postpone"/>
+				<entry name="break_time" mtime="1400899595" schema="/schemas/desktop/gnome/typing_break/break_time"/>
+				<entry name="type_time" mtime="1400899595" schema="/schemas/desktop/gnome/typing_break/type_time"/>
 			</dir>
 			<dir name="thumbnailers">
-				<entry name="disable_all" mtime="1385219172" schema="/schemas/desktop/gnome/thumbnailers/disable_all"/>
+				<entry name="disable_all" mtime="1400899595" schema="/schemas/desktop/gnome/thumbnailers/disable_all"/>
 				<dir name="application@x-cbt">
 					<entry name="command" mtime="1395877794" schema="/schemas/desktop/gnome/thumbnailers/application@x-cbt/command"/>
 					<entry name="enable" mtime="1395877794" schema="/schemas/desktop/gnome/thumbnailers/application@x-cbt/enable"/>
@@ -2008,156 +2434,156 @@
 				</dir>
 			</dir>
 			<dir name="thumbnail_cache">
-				<entry name="maximum_size" mtime="1385219172" schema="/schemas/desktop/gnome/thumbnail_cache/maximum_size"/>
-				<entry name="maximum_age" mtime="1385219172" schema="/schemas/desktop/gnome/thumbnail_cache/maximum_age"/>
+				<entry name="maximum_size" mtime="1400899595" schema="/schemas/desktop/gnome/thumbnail_cache/maximum_size"/>
+				<entry name="maximum_age" mtime="1400899595" schema="/schemas/desktop/gnome/thumbnail_cache/maximum_age"/>
 			</dir>
 			<dir name="sound">
-				<entry name="input_feedback_sounds" mtime="1385219172" schema="/schemas/desktop/gnome/sound/input_feedback_sounds"/>
-				<entry name="theme_name" mtime="1385219172" schema="/schemas/desktop/gnome/sound/theme_name"/>
-				<entry name="event_sounds" mtime="1385219172" schema="/schemas/desktop/gnome/sound/event_sounds"/>
-				<entry name="enable_esd" mtime="1385219172" schema="/schemas/desktop/gnome/sound/enable_esd"/>
-				<entry name="default_mixer_tracks" mtime="1385219172" schema="/schemas/desktop/gnome/sound/default_mixer_tracks"/>
-				<entry name="default_mixer_device" mtime="1385219172" schema="/schemas/desktop/gnome/sound/default_mixer_device"/>
+				<entry name="input_feedback_sounds" mtime="1400899595" schema="/schemas/desktop/gnome/sound/input_feedback_sounds"/>
+				<entry name="theme_name" mtime="1400899595" schema="/schemas/desktop/gnome/sound/theme_name"/>
+				<entry name="event_sounds" mtime="1400899595" schema="/schemas/desktop/gnome/sound/event_sounds"/>
+				<entry name="enable_esd" mtime="1400899595" schema="/schemas/desktop/gnome/sound/enable_esd"/>
+				<entry name="default_mixer_tracks" mtime="1400899595" schema="/schemas/desktop/gnome/sound/default_mixer_tracks"/>
+				<entry name="default_mixer_device" mtime="1400899595" schema="/schemas/desktop/gnome/sound/default_mixer_device"/>
 			</dir>
 			<dir name="peripherals">
 				<dir name="mouse">
-					<entry name="cursor_size" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/cursor_size"/>
-					<entry name="cursor_theme" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/cursor_theme"/>
-					<entry name="cursor_font" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/cursor_font"/>
-					<entry name="locate_pointer" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/locate_pointer"/>
-					<entry name="double_click" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/double_click"/>
-					<entry name="drag_threshold" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/drag_threshold"/>
-					<entry name="motion_threshold" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/motion_threshold"/>
-					<entry name="motion_acceleration" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/motion_acceleration"/>
-					<entry name="single_click" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/single_click"/>
-					<entry name="left_handed" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/mouse/left_handed"/>
+					<entry name="cursor_size" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/cursor_size"/>
+					<entry name="cursor_theme" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/cursor_theme"/>
+					<entry name="cursor_font" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/cursor_font"/>
+					<entry name="locate_pointer" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/locate_pointer"/>
+					<entry name="double_click" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/double_click"/>
+					<entry name="drag_threshold" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/drag_threshold"/>
+					<entry name="motion_threshold" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/motion_threshold"/>
+					<entry name="motion_acceleration" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/motion_acceleration"/>
+					<entry name="single_click" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/single_click"/>
+					<entry name="left_handed" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/mouse/left_handed"/>
 				</dir>
 				<dir name="keyboard">
-					<entry name="remember_numlock_state" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/remember_numlock_state"/>
-					<entry name="bell_custom_file" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/bell_custom_file"/>
-					<entry name="bell_duration" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/bell_duration"/>
-					<entry name="bell_pitch" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/bell_pitch"/>
-					<entry name="bell_mode" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/bell_mode"/>
-					<entry name="click_volume" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/click_volume"/>
-					<entry name="delay" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/delay"/>
-					<entry name="rate" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/rate"/>
-					<entry name="click" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/click"/>
-					<entry name="repeat" mtime="1385219172" schema="/schemas/desktop/gnome/peripherals/keyboard/repeat"/>
+					<entry name="remember_numlock_state" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/remember_numlock_state"/>
+					<entry name="bell_custom_file" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/bell_custom_file"/>
+					<entry name="bell_duration" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/bell_duration"/>
+					<entry name="bell_pitch" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/bell_pitch"/>
+					<entry name="bell_mode" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/bell_mode"/>
+					<entry name="click_volume" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/click_volume"/>
+					<entry name="delay" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/delay"/>
+					<entry name="rate" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/rate"/>
+					<entry name="click" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/click"/>
+					<entry name="repeat" mtime="1400899595" schema="/schemas/desktop/gnome/peripherals/keyboard/repeat"/>
 				</dir>
 			</dir>
 			<dir name="lockdown">
-				<entry name="disable_application_handlers" mtime="1385219172" schema="/schemas/desktop/gnome/lockdown/disable_application_handlers"/>
-				<entry name="disable_lock_screen" mtime="1385219172" schema="/schemas/desktop/gnome/lockdown/disable_lock_screen"/>
-				<entry name="disable_user_switching" mtime="1385219172" schema="/schemas/desktop/gnome/lockdown/disable_user_switching"/>
-				<entry name="disable_print_setup" mtime="1385219172" schema="/schemas/desktop/gnome/lockdown/disable_print_setup"/>
-				<entry name="disable_printing" mtime="1385219172" schema="/schemas/desktop/gnome/lockdown/disable_printing"/>
-				<entry name="disable_save_to_disk" mtime="1385219172" schema="/schemas/desktop/gnome/lockdown/disable_save_to_disk"/>
-				<entry name="disable_command_line" mtime="1385219172" schema="/schemas/desktop/gnome/lockdown/disable_command_line"/>
+				<entry name="disable_application_handlers" mtime="1400899595" schema="/schemas/desktop/gnome/lockdown/disable_application_handlers"/>
+				<entry name="disable_lock_screen" mtime="1400899595" schema="/schemas/desktop/gnome/lockdown/disable_lock_screen"/>
+				<entry name="disable_user_switching" mtime="1400899595" schema="/schemas/desktop/gnome/lockdown/disable_user_switching"/>
+				<entry name="disable_print_setup" mtime="1400899595" schema="/schemas/desktop/gnome/lockdown/disable_print_setup"/>
+				<entry name="disable_printing" mtime="1400899595" schema="/schemas/desktop/gnome/lockdown/disable_printing"/>
+				<entry name="disable_save_to_disk" mtime="1400899595" schema="/schemas/desktop/gnome/lockdown/disable_save_to_disk"/>
+				<entry name="disable_command_line" mtime="1400899595" schema="/schemas/desktop/gnome/lockdown/disable_command_line"/>
 			</dir>
 			<dir name="interface">
-				<entry name="show_unicode_menu" mtime="1385219172" schema="/schemas/desktop/gnome/interface/show_unicode_menu"/>
-				<entry name="show_input_method_menu" mtime="1385219172" schema="/schemas/desktop/gnome/interface/show_input_method_menu"/>
-				<entry name="menubar_accel" mtime="1385219172" schema="/schemas/desktop/gnome/interface/menubar_accel"/>
-				<entry name="file_chooser_backend" mtime="1385219172" schema="/schemas/desktop/gnome/interface/file_chooser_backend"/>
-				<entry name="status_bar_meter_on_right" mtime="1385219172" schema="/schemas/desktop/gnome/interface/status_bar_meter_on_right"/>
-				<entry name="use_custom_font" mtime="1385219172" schema="/schemas/desktop/gnome/interface/use_custom_font"/>
-				<entry name="monospace_font_name" mtime="1385219172" schema="/schemas/desktop/gnome/interface/monospace_font_name"/>
-				<entry name="document_font_name" mtime="1385219172" schema="/schemas/desktop/gnome/interface/document_font_name"/>
-				<entry name="gtk-im-module" mtime="1385219172" schema="/schemas/desktop/gnome/interface/gtk-im-module"/>
-				<entry name="gtk-im-status-style" mtime="1385219172" schema="/schemas/desktop/gnome/interface/gtk-im-status-style"/>
-				<entry name="gtk-im-preedit-style" mtime="1385219172" schema="/schemas/desktop/gnome/interface/gtk-im-preedit-style"/>
-				<entry name="font_name" mtime="1385219172" schema="/schemas/desktop/gnome/interface/font_name"/>
-				<entry name="gtk_key_theme" mtime="1385219172" schema="/schemas/desktop/gnome/interface/gtk_key_theme"/>
-				<entry name="gtk_theme" mtime="1385219172" schema="/schemas/desktop/gnome/interface/gtk_theme"/>
-				<entry name="icon_theme" mtime="1385219172" schema="/schemas/desktop/gnome/interface/icon_theme"/>
-				<entry name="cursor_blink_time" mtime="1385219172" schema="/schemas/desktop/gnome/interface/cursor_blink_time"/>
-				<entry name="cursor_blink" mtime="1385219172" schema="/schemas/desktop/gnome/interface/cursor_blink"/>
-				<entry name="toolbar_icons_size" mtime="1385219172" schema="/schemas/desktop/gnome/interface/toolbar_icons_size"/>
-				<entry name="toolbar_detachable" mtime="1385219172" schema="/schemas/desktop/gnome/interface/toolbar_detachable"/>
-				<entry name="menubar_detachable" mtime="1385219172" schema="/schemas/desktop/gnome/interface/menubar_detachable"/>
-				<entry name="buttons_have_icons" mtime="1385219172" schema="/schemas/desktop/gnome/interface/buttons_have_icons"/>
-				<entry name="menus_have_icons" mtime="1385219172" schema="/schemas/desktop/gnome/interface/menus_have_icons"/>
-				<entry name="toolbar_style" mtime="1385219172" schema="/schemas/desktop/gnome/interface/toolbar_style"/>
-				<entry name="can_change_accels" mtime="1385219172" schema="/schemas/desktop/gnome/interface/can_change_accels"/>
-				<entry name="menus_have_tearoff" mtime="1385219172" schema="/schemas/desktop/gnome/interface/menus_have_tearoff"/>
-				<entry name="enable_animations" mtime="1385219172" schema="/schemas/desktop/gnome/interface/enable_animations"/>
-				<entry name="accessibility" mtime="1385219172" schema="/schemas/desktop/gnome/interface/accessibility"/>
+				<entry name="show_unicode_menu" mtime="1400899595" schema="/schemas/desktop/gnome/interface/show_unicode_menu"/>
+				<entry name="show_input_method_menu" mtime="1400899595" schema="/schemas/desktop/gnome/interface/show_input_method_menu"/>
+				<entry name="menubar_accel" mtime="1400899595" schema="/schemas/desktop/gnome/interface/menubar_accel"/>
+				<entry name="file_chooser_backend" mtime="1400899595" schema="/schemas/desktop/gnome/interface/file_chooser_backend"/>
+				<entry name="status_bar_meter_on_right" mtime="1400899595" schema="/schemas/desktop/gnome/interface/status_bar_meter_on_right"/>
+				<entry name="use_custom_font" mtime="1400899595" schema="/schemas/desktop/gnome/interface/use_custom_font"/>
+				<entry name="monospace_font_name" mtime="1400899595" schema="/schemas/desktop/gnome/interface/monospace_font_name"/>
+				<entry name="document_font_name" mtime="1400899595" schema="/schemas/desktop/gnome/interface/document_font_name"/>
+				<entry name="gtk-im-module" mtime="1400899595" schema="/schemas/desktop/gnome/interface/gtk-im-module"/>
+				<entry name="gtk-im-status-style" mtime="1400899595" schema="/schemas/desktop/gnome/interface/gtk-im-status-style"/>
+				<entry name="gtk-im-preedit-style" mtime="1400899595" schema="/schemas/desktop/gnome/interface/gtk-im-preedit-style"/>
+				<entry name="font_name" mtime="1400899595" schema="/schemas/desktop/gnome/interface/font_name"/>
+				<entry name="gtk_key_theme" mtime="1400899595" schema="/schemas/desktop/gnome/interface/gtk_key_theme"/>
+				<entry name="gtk_theme" mtime="1400899595" schema="/schemas/desktop/gnome/interface/gtk_theme"/>
+				<entry name="icon_theme" mtime="1400899595" schema="/schemas/desktop/gnome/interface/icon_theme"/>
+				<entry name="cursor_blink_time" mtime="1400899595" schema="/schemas/desktop/gnome/interface/cursor_blink_time"/>
+				<entry name="cursor_blink" mtime="1400899595" schema="/schemas/desktop/gnome/interface/cursor_blink"/>
+				<entry name="toolbar_icons_size" mtime="1400899595" schema="/schemas/desktop/gnome/interface/toolbar_icons_size"/>
+				<entry name="toolbar_detachable" mtime="1400899595" schema="/schemas/desktop/gnome/interface/toolbar_detachable"/>
+				<entry name="menubar_detachable" mtime="1400899595" schema="/schemas/desktop/gnome/interface/menubar_detachable"/>
+				<entry name="buttons_have_icons" mtime="1400899595" schema="/schemas/desktop/gnome/interface/buttons_have_icons"/>
+				<entry name="menus_have_icons" mtime="1400899595" schema="/schemas/desktop/gnome/interface/menus_have_icons"/>
+				<entry name="toolbar_style" mtime="1400899595" schema="/schemas/desktop/gnome/interface/toolbar_style"/>
+				<entry name="can_change_accels" mtime="1400899595" schema="/schemas/desktop/gnome/interface/can_change_accels"/>
+				<entry name="menus_have_tearoff" mtime="1400899595" schema="/schemas/desktop/gnome/interface/menus_have_tearoff"/>
+				<entry name="enable_animations" mtime="1400899595" schema="/schemas/desktop/gnome/interface/enable_animations"/>
+				<entry name="accessibility" mtime="1400899595" schema="/schemas/desktop/gnome/interface/accessibility"/>
 			</dir>
 			<dir name="file_views">
-				<entry name="icon_theme" mtime="1385219172" schema="/schemas/desktop/gnome/file-views/icon_theme"/>
+				<entry name="icon_theme" mtime="1400899595" schema="/schemas/desktop/gnome/file-views/icon_theme"/>
 			</dir>
 			<dir name="background">
-				<entry name="color_shading_type" mtime="1385219172" schema="/schemas/desktop/gnome/background/color_shading_type"/>
-				<entry name="secondary_color" mtime="1385219172" schema="/schemas/desktop/gnome/background/secondary_color"/>
-				<entry name="primary_color" mtime="1385219172" schema="/schemas/desktop/gnome/background/primary_color"/>
-				<entry name="picture_opacity" mtime="1385219172" schema="/schemas/desktop/gnome/background/picture_opacity"/>
-				<entry name="picture_filename" mtime="1385219172" schema="/schemas/desktop/gnome/background/picture_filename"/>
-				<entry name="picture_options" mtime="1385219172" schema="/schemas/desktop/gnome/background/picture_options"/>
-				<entry name="draw_background" mtime="1385219172" schema="/schemas/desktop/gnome/background/draw_background"/>
+				<entry name="color_shading_type" mtime="1400899595" schema="/schemas/desktop/gnome/background/color_shading_type"/>
+				<entry name="secondary_color" mtime="1400899595" schema="/schemas/desktop/gnome/background/secondary_color"/>
+				<entry name="primary_color" mtime="1400899595" schema="/schemas/desktop/gnome/background/primary_color"/>
+				<entry name="picture_opacity" mtime="1400899595" schema="/schemas/desktop/gnome/background/picture_opacity"/>
+				<entry name="picture_filename" mtime="1400899595" schema="/schemas/desktop/gnome/background/picture_filename"/>
+				<entry name="picture_options" mtime="1400899595" schema="/schemas/desktop/gnome/background/picture_options"/>
+				<entry name="draw_background" mtime="1400899595" schema="/schemas/desktop/gnome/background/draw_background"/>
 			</dir>
 			<dir name="applications">
 				<dir name="component_viewer">
 					<entry name="exec" mtime="1392507570" schema="/schemas/desktop/gnome/applications/component_viewer/exec"/>
 				</dir>
 				<dir name="window_manager">
-					<entry name="workspace_names" mtime="1385219172" schema="/schemas/desktop/gnome/applications/window_manager/workspace_names"/>
-					<entry name="number_of_workspaces" mtime="1385219172" schema="/schemas/desktop/gnome/applications/window_manager/number_of_workspaces"/>
-					<entry name="current" mtime="1385219172" schema="/schemas/desktop/gnome/applications/window_manager/current"/>
-					<entry name="default" mtime="1385219172" schema="/schemas/desktop/gnome/applications/window_manager/default"/>
+					<entry name="workspace_names" mtime="1400899595" schema="/schemas/desktop/gnome/applications/window_manager/workspace_names"/>
+					<entry name="number_of_workspaces" mtime="1400899595" schema="/schemas/desktop/gnome/applications/window_manager/number_of_workspaces"/>
+					<entry name="current" mtime="1400899595" schema="/schemas/desktop/gnome/applications/window_manager/current"/>
+					<entry name="default" mtime="1400899595" schema="/schemas/desktop/gnome/applications/window_manager/default"/>
 				</dir>
 				<dir name="terminal">
-					<entry name="exec_arg" mtime="1392507570" schema="/schemas/desktop/gnome/applications/terminal/exec_arg"/>
-					<entry name="exec" mtime="1392507570" schema="/schemas/desktop/gnome/applications/terminal/exec"/>
+					<entry name="exec_arg" mtime="1400899595" schema="/schemas/desktop/gnome/applications/terminal/exec_arg"/>
+					<entry name="exec" mtime="1400899595" schema="/schemas/desktop/gnome/applications/terminal/exec"/>
 				</dir>
 				<dir name="tasks">
-					<entry name="needs_term" mtime="1385219172" schema="/schemas/desktop/gnome/applications/tasks/needs_term"/>
-					<entry name="exec" mtime="1385219172" schema="/schemas/desktop/gnome/applications/tasks/exec"/>
+					<entry name="needs_term" mtime="1400899595" schema="/schemas/desktop/gnome/applications/tasks/needs_term"/>
+					<entry name="exec" mtime="1400899595" schema="/schemas/desktop/gnome/applications/tasks/exec"/>
 				</dir>
 				<dir name="calendar">
-					<entry name="needs_term" mtime="1385219172" schema="/schemas/desktop/gnome/applications/calendar/needs_term"/>
-					<entry name="exec" mtime="1385219172" schema="/schemas/desktop/gnome/applications/calendar/exec"/>
+					<entry name="needs_term" mtime="1400899595" schema="/schemas/desktop/gnome/applications/calendar/needs_term"/>
+					<entry name="exec" mtime="1400899595" schema="/schemas/desktop/gnome/applications/calendar/exec"/>
 				</dir>
 				<dir name="browser">
-					<entry name="nremote" mtime="1385219172" schema="/schemas/desktop/gnome/applications/browser/nremote"/>
-					<entry name="needs_term" mtime="1385219172" schema="/schemas/desktop/gnome/applications/browser/needs_term"/>
-					<entry name="exec" mtime="1385219172" schema="/schemas/desktop/gnome/applications/browser/exec"/>
+					<entry name="nremote" mtime="1400899595" schema="/schemas/desktop/gnome/applications/browser/nremote"/>
+					<entry name="needs_term" mtime="1400899595" schema="/schemas/desktop/gnome/applications/browser/needs_term"/>
+					<entry name="exec" mtime="1400899595" schema="/schemas/desktop/gnome/applications/browser/exec"/>
 				</dir>
 				<dir name="at">
 					<dir name="visual">
-						<entry name="startup" mtime="1385219172" schema="/schemas/desktop/gnome/applications/at/visual/startup"/>
-						<entry name="exec" mtime="1385219172" schema="/schemas/desktop/gnome/applications/at/visual/exec"/>
+						<entry name="startup" mtime="1400899595" schema="/schemas/desktop/gnome/applications/at/visual/startup"/>
+						<entry name="exec" mtime="1400899595" schema="/schemas/desktop/gnome/applications/at/visual/exec"/>
 					</dir>
 					<dir name="mobility">
-						<entry name="startup" mtime="1385219172" schema="/schemas/desktop/gnome/applications/at/mobility/startup"/>
-						<entry name="exec" mtime="1385219172" schema="/schemas/desktop/gnome/applications/at/mobility/exec"/>
+						<entry name="startup" mtime="1400899595" schema="/schemas/desktop/gnome/applications/at/mobility/startup"/>
+						<entry name="exec" mtime="1400899595" schema="/schemas/desktop/gnome/applications/at/mobility/exec"/>
 					</dir>
 				</dir>
 			</dir>
 			<dir name="accessibility">
 				<dir name="startup">
-					<entry name="exec_ats" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/startup/exec_ats"/>
+					<entry name="exec_ats" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/startup/exec_ats"/>
 				</dir>
 				<dir name="keyboard">
-					<entry name="togglekeys_enable" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/togglekeys_enable"/>
-					<entry name="stickykeys_modifier_beep" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/stickykeys_modifier_beep"/>
-					<entry name="stickykeys_two_key_off" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/stickykeys_two_key_off"/>
-					<entry name="stickykeys_enable" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/stickykeys_enable"/>
-					<entry name="slowkeys_beep_reject" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_beep_reject"/>
-					<entry name="slowkeys_beep_accept" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_beep_accept"/>
-					<entry name="slowkeys_beep_press" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_beep_press"/>
-					<entry name="slowkeys_delay" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_delay"/>
-					<entry name="slowkeys_enable" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_enable"/>
-					<entry name="mousekeys_init_delay" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/mousekeys_init_delay"/>
-					<entry name="mousekeys_accel_time" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/mousekeys_accel_time"/>
-					<entry name="mousekeys_max_speed" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/mousekeys_max_speed"/>
-					<entry name="mousekeys_enable" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/mousekeys_enable"/>
-					<entry name="bouncekeys_beep_reject" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/bouncekeys_beep_reject"/>
-					<entry name="bouncekeys_delay" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/bouncekeys_delay"/>
-					<entry name="bouncekeys_enable" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/bouncekeys_enable"/>
-					<entry name="timeout" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/timeout"/>
-					<entry name="timeout_enable" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/timeout_enable"/>
-					<entry name="feature_state_change_beep" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/feature_state_change_beep"/>
-					<entry name="enable" mtime="1385219172" schema="/schemas/desktop/gnome/accessibility/keyboard/enable"/>
+					<entry name="togglekeys_enable" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/togglekeys_enable"/>
+					<entry name="stickykeys_modifier_beep" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/stickykeys_modifier_beep"/>
+					<entry name="stickykeys_two_key_off" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/stickykeys_two_key_off"/>
+					<entry name="stickykeys_enable" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/stickykeys_enable"/>
+					<entry name="slowkeys_beep_reject" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_beep_reject"/>
+					<entry name="slowkeys_beep_accept" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_beep_accept"/>
+					<entry name="slowkeys_beep_press" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_beep_press"/>
+					<entry name="slowkeys_delay" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_delay"/>
+					<entry name="slowkeys_enable" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/slowkeys_enable"/>
+					<entry name="mousekeys_init_delay" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/mousekeys_init_delay"/>
+					<entry name="mousekeys_accel_time" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/mousekeys_accel_time"/>
+					<entry name="mousekeys_max_speed" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/mousekeys_max_speed"/>
+					<entry name="mousekeys_enable" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/mousekeys_enable"/>
+					<entry name="bouncekeys_beep_reject" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/bouncekeys_beep_reject"/>
+					<entry name="bouncekeys_delay" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/bouncekeys_delay"/>
+					<entry name="bouncekeys_enable" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/bouncekeys_enable"/>
+					<entry name="timeout" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/timeout"/>
+					<entry name="timeout_enable" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/timeout_enable"/>
+					<entry name="feature_state_change_beep" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/feature_state_change_beep"/>
+					<entry name="enable" mtime="1400899595" schema="/schemas/desktop/gnome/accessibility/keyboard/enable"/>
 				</dir>
 			</dir>
 		</dir>
